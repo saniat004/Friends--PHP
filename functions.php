@@ -47,7 +47,7 @@ if(isset($_GET['action']) && isset($_GET['id'])){
                     redirect_to_profile();
                 }
                 else{
-                    $frnd_obj->make_ffriends($my_id, $user_id);
+                    $frnd_obj->make_friends($my_id, $user_id);
                 }
             }
             // IF GET UNFRIEND REQUEST ACTION
